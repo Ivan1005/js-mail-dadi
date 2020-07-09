@@ -1,0 +1,36 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+.banner {
+  width: 25%;
+  height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/18/13/34/gambling-602976__340.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  width: 50%;
+  height: 100vh;
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(83,3,7,1) 30%, rgba(0,0,0,1) 100%);
+  font-size: 100px;
+  padding: 40px;
+}
+
+#giocatore {
+  margin-top: 100px;
+}
+
+#risultato {
+  text-align: center;
+  margin-top: 60px;
+  color: FireBrick;
+}
